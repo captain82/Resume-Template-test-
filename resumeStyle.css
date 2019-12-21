@@ -1,0 +1,424 @@
+*
+{
+	/*margin: 100;
+	border: 100;*/
+	box-sizing: border-box;
+	margin: 0px
+	padding:0px;
+}
+
+html{
+	height: 100%;
+	margin: 0px;
+}
+
+
+@media print
+{
+    @page {
+      size: letter,A4; /* DIN A4 standard, Europe */
+      margin:0px;
+      padding: 0px;
+    }
+}
+
+body{
+	/*position:relative;
+	left:50%;
+	margin-left:-297px;
+	top:0px;
+	width:595px;
+	height:842px;
+	border-style:outset;
+	overflow:scroll;*/
+	position: relative;
+	font-family:Arial,serif;
+
+	/*height: 842px;
+        width: 595px;*/
+        /* to centre page on screen*/
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+}
+
+
+.left
+{
+	position: relative;
+	padding-right: 10px;
+    flex: 1;
+}
+
+
+.name
+{
+	position:relative;
+	margin-top: 16px;
+	display: inline-block;
+
+
+}
+
+.about
+{
+	position:relative;
+	width: 100%;
+	margin-top: 10px;
+
+	}
+
+.mail
+{
+	position:relative;
+	flex: 1;
+	text-align:center;
+	line-height: 32.5px;
+
+}
+.phone
+{
+	position:relative;
+	flex: 1;
+	text-align:center;
+	line-height: 32.5px;
+
+}
+
+.address
+{
+	position:relative;
+	flex: 1;
+	text-align: justify;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 32.5px;
+
+}
+
+.personal_details_rectangle
+{
+	width: 100%;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	position: relative;
+	background:#374457;
+	display: inline-block;
+}
+
+.info_rectangle
+{
+	position: relative;
+	height: 35px;
+	background: #2E3843;
+	display: flex;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.education
+{
+	position:relative;
+	margin-bottom: 15px;
+}
+
+.education_block
+{
+	position: relative;
+	margin-top: 17px;
+}
+
+
+.skills
+{
+	position:relative;
+}
+
+.skills_block
+{
+	position: relative;
+/*	left: 50%;
+*/
+	margin-top: 17px;
+	margin-bottom: 35px;
+
+}
+.languages
+{
+	position:relative;
+}
+
+.projects
+{
+	position:relative;
+	margin-top: 15px;
+}
+
+.interests
+{
+	position:relative;
+}
+
+.experience_block
+{
+	position: relative;
+	margin-top: 38px;
+}
+
+.experience
+{
+	position:relative;
+}
+.details
+{
+	display: flex;
+	padding-left: 30px;
+	padding-right: : 30px;
+}
+
+.certificates
+{
+	position:relative;
+}
+
+.education_list
+{
+	position:relative;
+	margin-top: 7px;
+	list-style-type:none
+
+
+}
+
+.experience_list
+{
+	position:relative;
+	margin-top: 4px;
+	list-style-type:none
+
+
+}
+
+.skills_list
+{
+	position:relative;
+	margin-top: 7px;
+}
+
+.description
+{
+	margin-left: 8px;
+}
+
+.projects_list
+{
+	position:relative;
+	margin-top: 5px;
+		list-style-type:none
+
+}
+
+.certificates_list
+{
+	position:relative;
+	margin-top: 15px;
+		list-style-type:none
+
+}
+
+.languages_list
+{
+	position:relative;
+	margin-top: 8px;
+}
+
+.interests_list
+{
+	position:relative;
+	margin-top: 8px;
+}
+span.cls_003
+{
+	font-family:Arial,serif;
+	font-size:13.0px;
+	color:rgb(255,255,255);
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none
+}
+
+span.nameText
+{
+	font-size: 30.0px;
+    color:rgb(255,255,255);
+    font-family:Arial,serif;
+
+}
+
+span.cls_004{font-family:Arial,serif;font-size:11.0px;
+	color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+
+span.cls_006{font-family:Arial,serif;font-size:15.7px;
+	color:rgb(0,0,0);font-weight:bold;font-style:normal;
+	text-decoration: none }
+
+span.cls_013{font-family:Arial,serif;
+	font-size:19.0px;color:rgb(78,143,204);
+	font-weight:bold;font-style:normal;
+	text-decoration: underline;
+    text-underline-position: under;
+}
+
+	span.cls_007{font-family:Arial,serif;font-size:15.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+
+span.cls_008{font-family:Arial,serif;font-size:11.8px;color:rgb(78,143,204);font-weight:normal;font-style:italic;text-decoration: none}
+
+span.cls_009{font-family:Arial,serif;font-size:13.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;
+	font-size:13.5px;
+	color:rgb(0,0,0);
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none;
+}
+
+span.cls_015{font-family:Arial,serif;
+	font-size:11.5px;
+	color:rgb(0,0,0);
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none;
+}
+
+span.cls_011{font-family:Arial,serif;
+font-size:7.0px;color:rgb(0,0,0);
+font-weight:normal;font-style:normal;
+text-decoration: none;
+}
+.skills_list li:hover
+{
+	background:#3498db;
+}
+
+ul
+{
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skills_list li
+{
+
+	background:rgb(78,143,204);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:8px 4px 0 0;
+	padding:6px;
+	text-align:justify;
+}
+
+.languages_list li
+{
+	background:rgb(78,143,204);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:8px 4px 0 0;
+	padding:6px;
+	text-align:justify;
+}
+
+.interests_list li
+{
+	background:rgb(78,143,204);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:8px 4px 0 0;
+	padding:6px;
+	text-align:justify;
+}
+
+.projects_list li
+{
+	margin-top: 14px;
+}
+
+
+.experience_list li
+{
+	margin-top: 23px;
+}
+
+.certificates_list li
+{
+	margin-bottom: : 23px;
+	padding-bottom: 12px;
+}
+.education_list li
+{
+	padding-top: 0px;
+	margin-bottom: 23px;
+}
+
+.projects_block
+{
+	position:relative;
+}
+
+.certificates_block
+{
+  position: relative;
+  margin-top: 17px;
+}
+
+.languages_block
+{
+	position: relative;
+	margin-top: 17px;
+}
+
+.languages
+{
+	position: relative;
+}
+
+.achievements{
+	margin-top: 2.5px;
+}
+
+.task{
+	margin-top: 5px;
+}
+
+.right
+{
+	position: relative;
+	padding-left: 10px;
+	padding-right: 30px;
+	flex: 1;
+}
+
+/*.startDate,.stream{
+	display: inline-block;
+	width: 100%;
+ }
+*/
+
+
+
+
+
+
+
+.certificate_title,.startDate
+{
+		display: inline-block;
+
+}
